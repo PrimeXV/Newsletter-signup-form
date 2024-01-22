@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="newsletter.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css"
+    rel="stylesheet">
+  <title>Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+
+
+  <!-- Sign-up form start-->
+
+  <div class="container" id="container">
+
+    <div class="newsletter">
+
+      <h1>Stay updated!</h1>
+      <p class="comment">Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <div class="list">
+        <p><img src="images/icon-list.svg"
+            alt="Icon List">Product discovery and building what matters</p>
+        <p><img src="images/icon-list.svg"
+            alt="Icon List">Measuring to ensure updates are a success</p>
+        <p><img src="images/icon-list.svg"
+            alt="Icon List">And much more!</p>
+      </div>
+
+      <form name="email">
+
+        <div class="space-between">
+          <label for="email">Email address</label>
+          <h4 class="error-valid" id="error-valid">valid email required</h4>
+        </div>
+          
+        <input type="email"
+          placeholder="email@company.com"
+          class="email"
+          id="email"
+          autocomplete="email">
+        <button type="submit"
+          class="btn"
+          id="btn"
+          aria
+          aria-label="Subscribe to monthly newsletter">Subscribe to monthly newsletter</button>
+      </form>
+
+    </div>
+
+
+    <div class="picture">
+      <img class="desktop"
+        src="images/illustration-sign-up-desktop.svg"
+        alt="">
+
+      <img class="mobile"
+        src="images/illustration-sign-up-mobile.svg"
+        alt="">
+
+    </div>
+
+  </div>
+
+  <!-- Sign-up form end -->
+
+
+
+  <!-- Success message start -->
+
+  <div class="success-message hide" id="success-message">
+
+    <div class="subscribe">
+      <img src="images/icon-success.svg"
+        alt="success icon">
+      <h1>Thanks for subscribing!</h1>
+      <p class="mobile-p">A confirmation email has been sent to <span id="success-email">ash@loremcompany.com.</span>
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+
+    <button class="mobile-btn" id="mobile-btn">Dismiss message</button>
+    <p>Coded by <a href="https://twitter.com/Newleaf67?s=09">Ganiyu Hassan Taiwo</a>.</p>
+
+  </div>
+
+  <!-- Success message end -->
+
+
+  <!-- JavaScript -->
+  <script src="newsletter.js"></script>
+  <!-- JavaScript -->
+</body>
+
+</html>
