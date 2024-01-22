@@ -86,7 +86,7 @@ I would love to continue learning JavaScript framework like React to make life m
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/PrimeXV)
 - Twitter - [@Newleaf67](https://twitter.com/Newleaf67?s=09)
 click on the name at the front of coded by in the web page to go to my profile
 
